@@ -3,8 +3,6 @@
 pkgs.mkShell {
   buildInputs = with pkgs; [
     python3
-    python3Packages.matplotlib
-    python3Packages.opencv4
   ];
 
   shellHook = ''
